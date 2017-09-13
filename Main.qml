@@ -93,7 +93,7 @@ Item {
         PropertyAnimation {
           target: sessionSelect
           properties: "opacity"
-          duration: 500
+          duration: 200 
         }
       }
     },
@@ -104,7 +104,7 @@ Item {
         PropertyAnimation {
           target: sessionSelect
           properties: "opacity"
-          duration: 500
+          duration: 200
         }
         PropertyAnimation {
           target: sessionSelect
@@ -150,7 +150,7 @@ Item {
       PropertyAnimation {
         target: listView
         properties: "opacity"
-        duration: 500
+        duration: 200
       }
       PropertyAnimation {
         target: listView
@@ -165,7 +165,7 @@ Item {
       PropertyAnimation {
         target: loginFrame
         properties: "opacity"
-        duration: 500
+        duration: 200
       }
     }
   },
@@ -178,7 +178,7 @@ Item {
       PropertyAnimation {
         target: loginFrame
         properties: "opacity"
-        duration: 500
+        duration: 200
       }
       PropertyAnimation {
         target: loginFrame
@@ -193,7 +193,7 @@ Item {
       PropertyAnimation {
         target: listView
         properties: "opacity"
-        duration: 500
+        duration: 200
       }
     }
   }]

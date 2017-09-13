@@ -80,7 +80,7 @@ Item {
 
       transitions: Transition {
         from: ""; to: "hide"; reversible: true
-        PropertyAnimation { properties: "opacity"; easing.type: Easing.InOutQuad; duration: 750 }
+        PropertyAnimation { properties: "opacity"; easing.type: Easing.InOutQuad; duration: 300 }
       }
 
     }
@@ -132,7 +132,7 @@ Item {
 
       transitions: Transition {
         from: ""; to: "show"; reversible: true
-        PropertyAnimation { properties: "opacity"; easing.type: Easing.InOutQuad; duration: 750 }
+        PropertyAnimation { properties: "opacity"; easing.type: Easing.InOutQuad; duration: 300 }
       }
 
     }
@@ -160,7 +160,7 @@ Item {
 
     transitions: Transition {
       from: ""; to: "expand"; reversible: true
-      PropertyAnimation { properties: "height"; easing.type: Easing.InOutQuad; duration: 750 }
+      PropertyAnimation { properties: "height"; easing.type: Easing.InOutQuad; duration: 300 }
     }
 
   }

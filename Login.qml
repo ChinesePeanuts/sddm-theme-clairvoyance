@@ -15,7 +15,7 @@ Item {
   focus: false
 
   Behavior on opacity {
-    NumberAnimation { duration: 500; easing.type: Easing.InOutQuad }
+    NumberAnimation { duration: 200; easing.type: Easing.InOutQuad }
   }
 
   //Functions:
@@ -76,13 +76,13 @@ Item {
     PropertyAnimation {
       properties: "opacity"
       easing.type: Easing.InOutQuad
-      duration: 750
+      duration: 300
     }
 
     PropertyAnimation {
       properties: "height"
       easing.type: Easing.InOutQuad
-      duration: 750
+      duration: 300
     }
   }
 
@@ -179,7 +179,7 @@ Item {
 
     Behavior on opacity {
       NumberAnimation{
-        duration: 500
+        duration: 200
         easing.type: Easing.InOutQuad
       }
     }

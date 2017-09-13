@@ -34,7 +34,7 @@ ListView {
     y: listView.currentItem.y + listView.currentItem.height
 
     Behavior on x {
-      NumberAnimation { duration: 350; easing.type: Easing.InOutQuad}
+      NumberAnimation { duration: 200; easing.type: Easing.InOutQuad}
     }
   }
 
